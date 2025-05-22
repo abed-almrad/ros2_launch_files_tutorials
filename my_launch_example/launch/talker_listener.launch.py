@@ -8,11 +8,11 @@ def generate_launch_description():
             executable='talker',
             name='my_talker'
         ),
-'''
+
         Node(
             package='demo_nodes_cpp',
             executable='listener',
             name='my_listener'
         )
-'''
+
     ])
